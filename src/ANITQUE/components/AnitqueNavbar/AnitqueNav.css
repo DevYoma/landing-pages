@@ -1,0 +1,104 @@
+/* GLOBAL STYLES ARE IN THE APP.CSS FILE  => .row, .container*/
+
+.antique__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+
+.antique__nav > p{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #212832;
+}
+
+.antique__nav > p > span{
+    color:#FF7B29 ;
+}
+
+.antique__lists{
+    display: flex;
+}
+
+.antique__lists > li{
+    margin-right: 100px;
+    /* padding: 0 25px; */
+}
+
+
+.antique__lists >li:last-child{
+    margin-right: 0px;
+}
+
+.antique__lists > li{
+    list-style-type: none;
+}
+
+.antique__lists > li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #FF7B29;
+}
+
+.antique__navIcon{
+    display: none;
+}
+
+
+@media screen and (max-width:1200px) {
+    .antique__lists > li{
+        margin-right: 50px;
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+
+    .antique__lists > li{
+        /* flex-direction: ; */
+        margin-right: 25px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .antique__nav ul,
+    .antique__nav div{
+        display: none;
+    }
+
+    #antique__hidden{
+        position: absolute;
+        left: 0px;
+        /* left: -90%; */
+        top: 40px;
+        background: black;
+        opacity: 0.6;
+        height: 95vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 25px;
+        color: white;
+    }
+
+    #antique__hidden > li{
+
+    }
+
+    
+    .antique__navIcon{
+        display: block;
+        cursor: pointer;
+        /* width: 50px; */
+        height:35px;
+        width: 35px;
+    }
+}
+
+
+

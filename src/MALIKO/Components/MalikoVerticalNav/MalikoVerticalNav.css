@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
+.malikoVerticalNav{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 45px 45px 0 31.27px;
+    /* border-right: 1px solid rgb(228, 208, 208); */
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    /* border-right: 1px solid linear-gradient(180deg, #616161 0%, rgba(196, 196, 196, 0) 100%);; */
+    height: 100vh;
+    /* width: 170px; */
+    position: relative;
+    flex: 0.05;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: fixed;
+}
+
+
+.malikoVerticalNav > h3{
+    /* margin-bottom: 78.52px; */
+}
+
+.malikoVerticalNav__items{
+    position: absolute;
+    top: 150px;
+    display: flex;
+    flex-direction: column-reverse;
+    left: 0;
+    /* border: 1px solid red; */
+}
+
+
+.malikoVerticalNav__items > p{
+    transform: rotate(-90deg);
+    margin-bottom: 64px;
+}
+
+.malikoVerticalNav__footer{
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    bottom: 40px;
+}
+
+.malikoVerticalNav__footer > p{
+    transform: rotate(-90deg);
+    margin-top: 32px;
+}
+
+

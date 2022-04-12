@@ -1,0 +1,16 @@
+nav.matheldaNav{
+    /* background: red; */
+    /* border: 1px solid black; */
+    margin: 30px 110px 0 0;
+}
+
+ul.matheldaNav__list{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    cursor: pointer;
+}
+
+.matheldaNav__list > li:not(:last-child){
+    margin-right: 2rem;
+}

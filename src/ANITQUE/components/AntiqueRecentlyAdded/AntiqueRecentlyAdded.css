@@ -1,0 +1,45 @@
+.antiqueRecentlyAdded{
+    margin-top: 8.75rem;
+}
+
+.antiqueRecentlyAdded > h1 {
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    color: #2D3134;
+}
+
+.antiqueRecentlyAdded > p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #676A6C;
+}
+
+.antiqueRecentlyAdded > div:first-of-type{
+    align-items: center;
+}
+
+.antiqueRecentlyAdded__carouselButtons > *{
+    margin: 0 5px;
+}
+
+.antiqueRecentlyAdded__items{
+    /* border: 1px solid red; */
+    margin-top: 3.125rem;
+    display: flex;
+    gap: 1.875rem;
+    overflow-x: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.antiqueRecentlyAdded__items::-webkit-scrollbar {
+    /* display: none; */
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .antiqueRecentlyAdded__items {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

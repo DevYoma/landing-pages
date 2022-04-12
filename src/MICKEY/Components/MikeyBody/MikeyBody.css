@@ -1,0 +1,5 @@
+.mikeyBody{
+    background-image: url('../../assets/MikeyRectangle.png');
+    background-repeat: repeat-y;
+    flex: 1;
+}

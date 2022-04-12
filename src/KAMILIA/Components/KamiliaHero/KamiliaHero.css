@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+.kamiliaHero{
+    margin-top: 50px;
+    display: flex;
+}
+
+.kamiliaHero__left{
+    flex: 0.5;
+    /* border: 1px solid red; */
+    padding-top: 100px;
+}
+
+.kamiliaHero__left > .kimiliaHero__leftParagraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #444444;
+}
+
+.kamiliaHero__left > span{
+    /* font-family: 'Abhaya Libre ExtraBold'; */
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 172px;
+    line-height: 203px;
+    letter-spacing: -0.04em;
+    color: #CB3322;
+}
+
+.kamiliaHero__description{
+    margin-bottom: 38px;
+}
+
+.kamiliaHero__description > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #505050;
+}
+
+.kamiliaHero__button{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2A2A2A;
+    /* padding: 1.25em 1.875em; */
+    padding: 15px 34px 20px 24px;
+    border: 1px solid #C4C4C4;
+    margin-bottom: 45px;
+    cursor: pointer;
+}
+
+.kamiliaHero__latestWork > h1{
+    margin-bottom: 30px;
+}
+
+.kimiliaHero__images{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.kimiliaHero__images > *{
+    margin-right: 20px;
+}
+
+.kamiliaHero__viewAll{
+    /* text-transform: lowercase; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #CB3322;
+    cursor: pointer;
+}
+
+.kamiliaHero__right{
+    flex: 0.5;
+    /* border: 1px solid green; */
+    position: relative;
+}
+
+.kamiliaHero__right > span{
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+    /* transform: rotate(-90deg); */
+}
+
+.kamiliaHero__right > span > p{
+    /* writing-mode: vertical-lr;
+    margin-bottom: 30px; */
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 150px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    transform: rotate(-90deg);
+}

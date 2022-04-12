@@ -1,0 +1,33 @@
+.venissaFooter__mappedList{
+    border-right: 1px solid #383838;
+    padding-right: 50px;
+}
+
+.venissaFooter__mappedList > h3{
+    color: red;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 129.5%;
+    letter-spacing: -0.08em;
+    color: #383838;
+    margin-bottom: 6px;
+}
+
+.venissaFooter__mappedList > p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.venissaFooter__mappedList:not(:first-child){
+    padding-left: 50px;
+}
+
+.venissaFooter{
+    margin-top: -10vh;
+    display: flex;
+}
+

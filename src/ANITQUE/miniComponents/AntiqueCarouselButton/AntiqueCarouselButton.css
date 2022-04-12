@@ -1,0 +1,13 @@
+.antiqueCarouselButton{
+    padding: 1.5em;
+    border-radius: 50%;
+    border: none;
+    background: #FF7B29;
+    box-shadow: 0px 16px 20px -6px rgba(233, 106, 27, 0.19)
+}
+
+.whiteBackground{
+    background: white;
+    box-shadow: 0px 16px 20px -6px rgba(233, 106, 27, 0.25)
+
+}

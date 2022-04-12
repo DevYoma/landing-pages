@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.mikeyVerticalNav{
+    /* color: red; */
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 100vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.mikeyVerticalNav > h3{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 129.5%;
+    letter-spacing: -0.08em;
+    color: #1814E5;
+    margin-top: 30px;
+}
+
+.mikeyVerticalNav__items{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    /* background: green; */
+    height: inherit;
+    /* border: 1px solid red; */
+    margin: 100px 0px 70px 0px;
+}
+
+.mikeyVerticalNav__items > *{
+    transform: rotate(-90deg);
+    /* margin-top: 100px; */
+}
+
+.mikeyVerticalNav__items > *:not(:last-child){
+    margin-top: 100px;
+}
+
+.mikeyVerticalNav__item > h4{
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 129.5%;
+    letter-spacing: -0.08em;
+    color: #383838;
+}
+
+.mikeyVerticalNav__item > p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* color: #000000; */
+}

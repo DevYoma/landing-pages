@@ -1,0 +1,113 @@
+.antiqueMain{
+    /* border: 1px solid black; */
+    margin-top: 6rem;
+}
+
+@media screen and (max-width: 768px) {
+    .antiqueMain{
+        margin-top: 0rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .antiqueMain{
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        
+    }
+
+    .antiqueMain__left{
+        /* flex-direction: column; */
+        margin-bottom: 20px;
+    }
+
+    .antiqueMain__right{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .antiqueMain__left{
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+    }
+}
+
+.antiqueMain__left{
+    flex: 0.8;
+    /* border: 1px solid red; */
+}
+
+.antiqueMain__leftText{
+    /* border: 3px solid violet; */
+    flex: 1;
+    padding-top: 6.25em;
+   
+}
+
+.antiqueMain__leftImg{
+    /* border: 1px solid yellow; */
+    padding-right: 6em;
+}
+
+.antiqueMain__leftText > h1{
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 69px;
+    letter-spacing: -0.02em;
+    color: #2D3134
+}
+
+.antiqueMain__leftText > h1:nth-child(2){
+    color: blue;
+    margin-bottom: 2.8rem;
+}
+
+.antiqueMain__left__description{
+    font-size: 16px;
+    line-height: 28px;
+    color: #676A6C;
+    margin-bottom: 2.8rem;
+}
+
+.antiqueMain__left__footer{
+    /* border: 1px solid red; */
+    width: fit-content;
+    align-items: center;
+    /* width: 50%; */
+}
+
+.antiqueMain__left__playButton{
+    padding: 1.375em;
+    border: 4px solid #FF7B29;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    background: white;
+    margin-left: 1.875rem;
+    margin-right: 1.25rem;
+}
+
+.antiqueMain__left__footer > p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* text-align: center; */
+    color: #4D4F56;
+}
+
+.antiqueMain__right{
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.antiqueMain__right > *{
+    margin-bottom: 3.125rem;
+}

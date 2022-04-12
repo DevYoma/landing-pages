@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.mikeyHero{
+    display: flex;
+    /* border: 1px solid gold; */
+    margin-left: -20px;
+    margin-top: 85px;
+}
+
+.mikeyHero__left{
+    flex: 0.4;
+    /* border: 1px solid red; */
+}
+
+/* RIGHT SECTION */
+.mikeyHero__right{
+    flex: 0.6;
+    padding-top: 70px;
+    /* border: 3px solid green; */
+}
+
+.mikeyHero__rightDescription > h4{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.mikeyHero__rightDescription > h1{
+    /* font-style: normal; */
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 900;
+    font-size: 102px;
+    line-height: 129.5%;
+    letter-spacing: -0.08em;
+    color: #383838;
+}
+
+.mikeyHero__rightDescription > p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 129.5%;
+    letter-spacing: -0.08em;
+    color: #383838;
+    margin-bottom: 4px;
+}
+
+.mikeyHero__rightDescription > span{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 129.5%;
+    letter-spacing: -0.08em;
+    color: #383838;
+}
+
+.mikeyHero__rightButton{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    background: #1814E5;
+    /* padding: 19px 47px 84px; */
+    /* top left-right bottom */
+    padding: 19px 47px 19px 84px;
+    border: none;
+    cursor: pointer;
+    margin-top: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 129.5%;
+    letter-spacing: -0.05em;
+}
+
+.mikeyHero__latestWork{
+    margin-top: 110px;
+}
+
+.mikeyHero__latestWork > p{
+    margin-bottom: 25px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.mikeyHero__latestWorkList > *:not(:last-child){
+    margin-right: 20px;
+}

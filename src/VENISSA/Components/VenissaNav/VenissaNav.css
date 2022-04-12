@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+.venissaNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid green; */
+    margin-top: 43px;
+}
+
+.venissaNav__ul{
+    display: flex;
+    list-style: none;
+}
+
+.venissaNav__ul > li{
+    margin-right: 3rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.venissaNav > p{
+    display: flex;
+    align-items: center;
+    color: #F1214F;
+}

@@ -1,0 +1,7 @@
+.mikeyPage{
+    display: flex;
+    background-repeat: repeat-x;
+    background-image: url('../assets/MikeyHorizontalRectangle.png');
+    background-position: 0px 374px;
+}
+

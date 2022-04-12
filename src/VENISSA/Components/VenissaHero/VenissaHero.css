@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+.venissaHero{
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.venissaHero__left{
+    flex: 0.7;
+    /* border: 1px solid red; */
+    padding-top: 150px;
+}
+
+.venissaHero__left > div > p{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.venissaHero__left > div > h1{
+        /* font-family: Circular Std; */
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 102px;
+    line-height: 129.5%;
+    letter-spacing: -0.08em;
+    color: #383838;
+}
+
+.venissaHero__left > div > h3,
+.venissaHero__left > div > h4{
+    /* font-family: Circular Std; */
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 129.5%;
+    letter-spacing: -0.08em;
+    color: #383838;
+}
+
+.venissaHero__left > div >h3{
+    font-size: 52px;
+}
+
+.venissaHero__left > div > h4{
+    font-size: 34px;
+}
+
+.venissaHero__button{
+    margin-top: 2.75rem;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 129.5%;
+    letter-spacing: -0.05em;
+    padding: 15px 60px;
+    background: #F1214F;
+    color: white;
+    border: none;
+}
+
+.venissaHero__right{
+    flex: 0.3;
+    /* border: 1px solid purple; */
+    /* margin-bottom: 245px; */
+}
+

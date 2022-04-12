@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.malikoHero{
+    /* background: red; */
+    margin-top: 100px;
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+}
+
+.malikoHero__left{
+    padding-top: 100px;
+    flex: .5;
+    /* border: 1px solid red; */
+}
+
+.malikoHero__leftName{
+    position: relative;
+}
+
+.malikoHero__leftName > p{
+    position: absolute;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 34px;
+    letter-spacing: -0.05em;
+    color: #000000;
+}
+
+.malikoHero__leftDescription{
+    margin-top: 52.72px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.05em;
+    color: #505050;
+}
+
+.malikoHero__button{
+    margin-top: 50px;
+    padding: 1.5625rem 3.125rem;
+    background: #383838;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+.malikoHero__bottomText{
+    position: absolute;
+    bottom: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.05em;
+    color: #505050;
+    margin-bottom: 40px;
+}
+
+.malikoHero__right{
+    flex: .5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

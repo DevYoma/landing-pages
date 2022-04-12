@@ -1,0 +1,12 @@
+.kamiliaPage{
+    position: relative;
+}
+
+.kamiliaPage__pinkSquare{
+    position: absolute;
+    width: 390px;
+    height: 594px;
+    left: 249px;
+    top: -205px;
+    z-index: -1;
+}
