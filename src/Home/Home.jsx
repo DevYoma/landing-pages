@@ -4,6 +4,12 @@ import './Home.css';
 import { FaGithub } from 'react-icons/fa'
 import Pic from './assets/efficientWay.png';
 import antique from './assets/antique.png'
+import kamil from './assets/kamil.png'
+import makilo from './assets/maliko.png'
+import natasha from './assets/natasha.png'
+import venissa from './assets/venissa.png'
+import mathelda from './assets/mathelda.png'
+import mikey from './assets/mikey.png'
 
 const Home = () => {
     const [designs] = useState([
@@ -16,28 +22,46 @@ const Home = () => {
         {
             id: 2, 
             name: "Natasha",
-            img: Pic,
+            img: natasha,
             link: "/natasha"
         },
         {
             id: 3,
             name: "Venissa",
-            img: Pic, 
+            img: venissa, 
             link: "/venissa"
         },
         {
             id: 4, 
             name: "Kamilia", 
-            img: Pic,
+            img: kamil,
             link: "/kamilia"
         },
+        {
+          id: 5, 
+          name: "Maliko",
+          img: makilo,
+          link: "/maliko"
+        },
+        {
+          id: 6, 
+          name: "Mikey",
+          img: mikey,
+          link: '/mikey'
+        },
+        {
+          id: 7, 
+          name: "Mathelda", 
+          img: mathelda,
+          link: '/mathelda'
+        }
     ])
 
     const mappedDesigns = designs.map(design => (
         <div key={design.id}>
             <div className="homeCard__top">
                 <h2>{design.id}</h2> 
-                <img style={{ border: '1px solid red', width: "800px", height: "500px", objectFit: "" }} src={design.img} alt="image" />
+                <img style={{ border: '1px solid red', width: "800px", objectFit: "contain" }} src={design.img} alt="image" />
                 <Link to={design.link}>{design.name}</Link>
             </div>
         </div>
