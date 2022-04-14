@@ -22,11 +22,22 @@ const AnitqueNav = () => {
                     <li onClick={() => setShowMenu(false)}>How We Collect</li>
                     <li onClick={() => setShowMenu(false)}>Sell An Antique</li>
                     <li onClick={() => setShowMenu(false)}>Blog</li>
+                    {
+                        showMenu ? (
+                            <li onClick={() => setShowMenu(false)}>
+                            <AntiqueOrangeButton name="Our Collections"/>
+                            </li>
+                        ):
+                        (
+                            <li></li>
+                        )
+                    }
+                   
+
+                   
                 </ul>
 
-                {/* <button className="antique__button">
-                    Our Collections
-                </button> */}
+               
                 <div>
                     <AntiqueOrangeButton name="Our Collections"/>
                 </div>

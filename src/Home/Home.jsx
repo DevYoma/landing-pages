@@ -61,7 +61,7 @@ const Home = () => {
         <div key={design.id}>
             <div className="homeCard__top">
                 <h2>{design.id}</h2> 
-                <img style={{ border: '1px solid red', width: "800px", objectFit: "contain" }} src={design.img} alt="image" />
+                <img style={{ border: '1px solid red', width: "60%", objectFit: "contain" }} src={design.img} alt="image" /> <br />
                 <Link to={design.link}>{design.name}</Link>
             </div>
         </div>
