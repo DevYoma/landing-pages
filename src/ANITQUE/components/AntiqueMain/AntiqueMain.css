@@ -48,8 +48,16 @@
 }
 
 .antiqueMain__leftImg{
-    /* border: 1px solid yellow; */
+    /* border: 3px solid yellow; */
     padding-right: 6em;
+    /* width: 90%; */
+}
+
+@media screen and (max-width: 768px) {
+    .antiqueMain__leftImg{
+        width: 90%;
+        /* border: 1px solid red; */
+    }
 }
 
 .antiqueMain__leftText > h1{

@@ -290,3 +290,11 @@
        align-items: center;
    }
 }
+
+
+/* the crazy pic image */
+@media screen and (max-width: 500px) {
+    .crazy__chairPic{
+        width: 300px;
+    }
+}

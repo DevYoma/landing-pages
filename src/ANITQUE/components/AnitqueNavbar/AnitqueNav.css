@@ -46,6 +46,10 @@
     display: none;
 }
 
+.antique__mobileButton{
+    display: none;
+}
+
 
 @media screen and (max-width:1200px) {
     .antique__lists > li{
@@ -75,7 +79,7 @@
         /* left: -90%; */
         top: 40px;
         background: black;
-        opacity: 0.6;
+        opacity: 0.9;
         height: 95vh;
         width: 100%;
         display: flex;
@@ -97,6 +101,10 @@
         /* width: 50px; */
         height:35px;
         width: 35px;
+    }
+
+    .antique__mobileButton{
+        display: block;
     }
 }
 

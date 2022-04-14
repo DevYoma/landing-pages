@@ -1,4 +1,4 @@
-import React from 'react';
+    import React from 'react';
 import './AntiqueMain.css';
 import Main from '../../assets/mainHeader.jpg'
 import AntiqueMainRightBadge from '../../miniComponents/AntiqueMainRightBadge/AntiqueMainRightBadge';
