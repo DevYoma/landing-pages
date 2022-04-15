@@ -2,12 +2,15 @@
 
 .venissaHero{
     display: flex;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
+
+
 
 .venissaHero__left{
     flex: 0.7;
     /* border: 1px solid red; */
+    border: 3px solid purple;
     padding-top: 150px;
 }
 
@@ -67,6 +70,16 @@
 .venissaHero__right{
     flex: 0.3;
     /* border: 1px solid purple; */
+    border: 3px solid yellow;
     /* margin-bottom: 245px; */
 }
 
+@media screen and (max-width: 1300px) {
+    .venissaHero{
+        flex-direction: column;
+    }
+
+    .venissaHero__right > img{
+        width: 100%;
+    }
+}

@@ -2,8 +2,11 @@ import React from 'react';
 import './VenissaHero.css';
 import HeroImg from '../../assets/HeroImg.png'
 import VenissaFooter from '../VenissaFooter/VenissaFooter';
+import useWindowDimensions from '../../../Hooks/useWindowDimensions';
 
 const VenissaHero = () => {
+    const { width } = useWindowDimensions()
+    const numberWidth = width < 1300
     return ( 
         <React.Fragment>
             <div className="venissaHero">
@@ -26,7 +29,7 @@ const VenissaHero = () => {
                 </div>
             </div>
            
-            <VenissaFooter />
+            {!numberWidth && (<VenissaFooter />)}
         </React.Fragment>
      );
 }

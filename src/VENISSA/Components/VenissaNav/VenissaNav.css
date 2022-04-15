@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px solid green; */
+    border: 2px solid green;
     margin-top: 43px;
 }
 
@@ -23,8 +23,31 @@
     color: #000000;
 }
 
-.venissaNav > p{
+.venissaNav > div{
     display: flex;
     align-items: center;
     color: #F1214F;
+}
+
+.venissaNav > div > p{
+    margin-left: 10px;
+}
+
+.venissaNav__menuIcon{
+    display: none;
+}
+
+/* TABLETS */
+@media screen and (max-width: 768px) {
+    .venissaNav{
+        justify-content: flex-end;
+    }
+    .venissaNav__menuIcon{
+        display: block;
+        /* border: 1px solid red; */
+    }
+    .venissaNav__ul,
+    .venissaNav > div{
+        display: none;
+    }
 }

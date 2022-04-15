@@ -1,6 +1,8 @@
 import React from 'react';
 import './VenissaNav.css';
-import { BsTelephone } from 'react-icons/bs'
+import { BsTelephone } from 'react-icons/bs';
+import { CgMenuRight } from 'react-icons/cg'
+
 
 const VenissaNav = () => {
     return ( 
@@ -13,7 +15,14 @@ const VenissaNav = () => {
                 <li>contact me</li>
             </ul>
 
-            <p> <BsTelephone /> Schedule a Call </p>
+            <div>
+            <BsTelephone /><p>Schedule a Call </p>
+            </div>
+            
+            <CgMenuRight 
+                className='venissaNav__menuIcon'
+                onClick={() => alert("Window")}
+            />
         </nav>
      );
 }
