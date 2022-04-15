@@ -16,7 +16,7 @@ const AnitqueNav = () => {
         <nav className="antique__nav container">
                 <p>Siboria<span>.</span></p>
                 {/* <ul className='antique__lists active' id={showMenu ? "antique__hidden" : ""}> */}
-                <ul className='antique__lists' id={showMenu ? "antique__hidden" : "active"}>
+                <ul className='antique__lists' id={showMenu ? "antique__hidden" : ""}>
                     <li onClick={() => setShowMenu(false)}>Home</li>
                     <li onClick={() => setShowMenu(false)}>Collections</li>
                     <li onClick={() => setShowMenu(false)}>How We Collect</li>
@@ -32,9 +32,6 @@ const AnitqueNav = () => {
                             <li></li>
                         )
                     }
-                   
-
-                   
                 </ul>
 
                

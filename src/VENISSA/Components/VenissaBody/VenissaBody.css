@@ -1,8 +1,22 @@
 .venissaBody{
     /* border: 1px solid green; */
     width: 100%;
-    /* margin-left: 70px; */
     margin-left: 180px;
     margin-right: 100px;
     flex: 1;
+    /* overflow-y: scroll; */
+}
+
+@media screen and (max-width: 1370px) {
+    .venissaBody{
+        width: 80%;
+        margin-left: 100px;
+        /* margin-right: 0; */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .venissaBody{
+        margin-left: 50px;
+    }
 }
