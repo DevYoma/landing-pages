@@ -1,12 +1,15 @@
 import React from 'react';
 import './MalikoVerticalNav.css';
 import MalikoImg from '../../assets/malikoImg.png'
+import useWindowDimensions from '../../../Hooks/useWindowDimensions'
 
 const MalikoVerticalNav = () => {
+    const { width } = useWindowDimensions()
+    const number = width >= 768
     return ( 
         <div className="malikoVerticalNav">
             {/* <h3>maliko</h3> */}
-            <img src={MalikoImg} alt="maliko" />
+            {number && <img src={MalikoImg} alt="maliko" />}
 
             <div className='malikoVerticalNav__items'>
                 <p>materials</p>

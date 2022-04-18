@@ -21,11 +21,11 @@ const KamiliaNav = () => {
             <p className="kamiliaNav__name">kamilia.</p>
 
             <ul className="kamiliaNav__navLinks" id={click ? "kamilia__hidden" : ""}>
-                <li>porfolio</li>
-                <li>about me</li>
-                <li>my blog</li>
-                <li>reviews</li>
-                <li>contact me</li>
+                <li onClick={() => setClick(!click)}>porfolio</li>
+                <li onClick={() => setClick(!click)}>about me</li>
+                <li onClick={() => setClick(!click)}>my blog</li>
+                <li onClick={() => setClick(!click)}>reviews</li>
+                <li onClick={() => setClick(!click)}>contact me</li>
             </ul>
 
             <div className="kamiliaNav__icons">

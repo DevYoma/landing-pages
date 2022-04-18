@@ -11,7 +11,7 @@
 .malikoHero__left{
     padding-top: 100px;
     flex: .5;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .malikoHero__leftName{
@@ -64,4 +64,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid yellow;
+}
+
+@media screen and (max-width: 768px) {
+    .malikoHero{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .malikoHero__left{
+        padding-top: 30px;
+        margin-bottom: 50px;
+    }
 }
