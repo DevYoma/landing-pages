@@ -3,3 +3,9 @@
     width: 100%;
     margin-left: 173px;
 }
+
+@media screen and (max-width: 768px) {
+    .malikoBody{
+        margin-left: 80px;
+    }
+}

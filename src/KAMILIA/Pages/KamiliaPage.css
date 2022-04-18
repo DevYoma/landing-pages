@@ -1,5 +1,6 @@
 .kamiliaPage{
     position: relative;
+    overflow-x: hidden;
 }
 
 .kamiliaPage__pinkSquare{
