@@ -53,3 +53,45 @@ nav.kamiliaNav{
     margin-left: 30px;
 }
 
+.kamiliaNav__mobileIcon{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .kamiliaNav{
+        /* width: 100%; */
+        /* border: 1px solid red; */
+    }
+    .kamiliaNav__icons,
+    .kamiliaNav__navLinks{
+        display: none;
+    }
+
+    .kamiliaNav__mobileIcon{
+        display: block;
+        height: 30px;
+        width: 30px;
+    }
+
+    #kamilia__hidden{
+        position: absolute;
+        left: 0px;
+        top: 45px;
+        background: black;
+        opacity: 0.9;
+        height: 95vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 25px;
+        color: white ;
+        z-index: 1000;
+    }
+
+    .kamiliaNav__navLinks > li{
+        color: white;
+    }
+    
+}

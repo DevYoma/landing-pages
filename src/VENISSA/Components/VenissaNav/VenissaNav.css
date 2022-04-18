@@ -37,11 +37,12 @@
     display: none;
 }
 
+
 /* TABLETS */
 @media screen and (max-width: 768px) {
     .venissaNav{
         justify-content: flex-end;
-        margin-top: 33px;
+        margin-top: 25px;
     }
     .venissaNav__menuIcon{
         display: block;
@@ -52,5 +53,27 @@
     .venissaNav__ul,
     .venissaNav > div{
         display: none;
+    }
+
+    /* VENISSA MOBILE MENU DROPDOWN */
+    #venissa__hidden{
+        position: absolute;
+        left: 0px;
+        top: 50px;
+        background: black;
+        opacity: 0.9;
+        height: 95vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 25px;
+        color: white ;
+        z-index: 1000;
+    }
+
+    .venissaNav__ul > li{
+        color: white;
     }
 }
