@@ -1,18 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './VenissaNav.css';
 import { BsTelephone } from 'react-icons/bs';
 import { CgMenuRight } from 'react-icons/cg'
 
 
 const VenissaNav = () => {
+    const [click, setClick] = useState(false)
+    
+    const setHandleClick = () => {
+        setClick(!click)
+    }
+
     return ( 
         <nav className="venissaNav">
-            <ul className="venissaNav__ul">
-                <li>portfolio</li>
-                <li>about me</li>
-                <li>my blog</li>
-                <li>reviews</li>
-                <li>contact me</li>
+            <ul className="venissaNav__ul" id={click ? "venissa__hidden" : ""}>
+                <li onClick={() => setClick(!click)}>portfolio</li>
+                <li onClick={() => setClick(!click)}>about me</li>
+                <li onClick={() => setClick(!click)}>my blog</li>
+                <li onClick={() => setClick(!click)}>reviews</li>
+                <li onClick={() => setClick(!click)}>contact me</li>
             </ul>
 
             <div>
@@ -21,7 +27,7 @@ const VenissaNav = () => {
             
             <CgMenuRight 
                 className='venissaNav__menuIcon'
-                onClick={() => alert("Window")}
+                onClick={setHandleClick}
             />
         </nav>
      );

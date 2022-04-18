@@ -112,3 +112,29 @@
     color: #000000;
     transform: rotate(-90deg);
 }
+
+/* TABLETS AND BELOW */
+@media screen and (max-width: 768px) {
+    .kamiliaHero{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .kamiliaHero__left{
+        padding-top: 50px;
+    }
+
+    .kamiliaHero__left > span{
+        font-size: 100px;
+    }
+
+    .kimiliaHero__images{
+        overflow-x: scroll;
+        /* border: 3px solid brown; */
+    }
+
+    .kamiliaHero__right > img{
+        width: 100%;
+        object-fit: contain ;
+    }
+}

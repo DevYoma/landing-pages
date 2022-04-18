@@ -5,8 +5,6 @@
     /* border: 1px solid red; */
 }
 
-
-
 .venissaHero__left{
     flex: 0.7;
     /* border: 3px solid purple; */
@@ -69,7 +67,6 @@
 .venissaHero__right{
     flex: 0.3;
     /* border: 3px solid yellow; */
-    /* margin-bottom: 245px; */
 }
 
 @media screen and (max-width: 1300px) {
@@ -80,7 +77,12 @@
     .venissaHero__right > img{
         width: 100%;
     }
-    
+}
+
+@media screen and (max-width: 768px) {
+    .venissaHero__left{
+        padding-top: 50px;
+    }
 }
 
 @media screen and (max-width: 500px) {
