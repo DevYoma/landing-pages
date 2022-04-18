@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-top: 43px;
 }
 
@@ -41,9 +41,12 @@
 @media screen and (max-width: 768px) {
     .venissaNav{
         justify-content: flex-end;
+        margin-top: 33px;
     }
     .venissaNav__menuIcon{
         display: block;
+        height: 30px;
+        width: 30px;
         /* border: 1px solid red; */
     }
     .venissaNav__ul,
