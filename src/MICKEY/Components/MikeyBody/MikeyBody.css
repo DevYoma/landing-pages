@@ -10,5 +10,6 @@
    .mikeyBody{
        /* margin-left: 40px; */
         margin: 0 30px;
+        overflow-x: hidden;
    }
 }

@@ -28,7 +28,9 @@ const MikeyHero = () => {
     ])
 
     const mappedPictures = pictures.map(picture => (
-      <img src={picture.image} alt=""  key={picture.id}/>
+        <div className='mikeyHero__latestWorkLists' key={picture.id}>
+            <img src={picture.image} alt=""  />
+        </div>
     ))
 
     return ( 
