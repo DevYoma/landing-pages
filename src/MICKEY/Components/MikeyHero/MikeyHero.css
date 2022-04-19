@@ -2,7 +2,7 @@
 
 .mikeyHero{
     display: flex;
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     margin-left: -20px;
     margin-top: 85px;
 }
@@ -95,9 +95,42 @@
         flex-direction: column-reverse;
         margin-top: 40px;
         margin-left: 0;
+        overflow-x: hidden;
+    }
+
+    .mikeyHero__left > img{
+        width: 80%;
     }
 
     .mikeyHero__right{
         padding-top: 30px;
+        overflow-x: hidden;
+    }
+
+    /* .mikeyHero__rightDescription > h4,
+    .mikeyHero__rightDescription > h1,
+    .mikeyHero__rightDescription > p,
+    .mikeyHero__rightDescription > span{
+        font-size: 1rem;
+    } */
+
+    .mikeyHero__rightDescription > h4{
+        
+    }
+
+    .mikeyHero__latestWorkList{
+        /* border: 1px solid red; */
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    .mikeyHero__latestWorkLists{
+        display: flex;
+    }
+
+    .mikeyHero__latestWorkLists > img{
+        margin: 0 15x;
+        /* border: 1px solid red; */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
