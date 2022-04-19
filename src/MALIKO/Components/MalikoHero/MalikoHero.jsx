@@ -11,7 +11,7 @@ const MalikoHero = () => {
                 <div className="malikoHero__leftName">
                     <p>Hello World, I am</p>
                     <img src={MalikoHeroImg} alt="hero_img" />
-                    <img src={MalikoDotImg} alt="dot_img" />
+                    <img src={MalikoDotImg} alt="dot_img" className='malikoHero__secondImg' />
                 </div>
 
                 <div className="malikoHero__leftDescription">
