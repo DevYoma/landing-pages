@@ -11,7 +11,7 @@
 .malikoHero__left{
     padding-top: 100px;
     flex: .5;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .malikoHero__leftName{
@@ -64,7 +64,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 @media screen and (max-width: 768px) {
@@ -76,5 +76,48 @@
     .malikoHero__left{
         padding-top: 30px;
         margin-bottom: 50px;
+    }
+
+    .malikoHero__leftName > img:first-of-type{
+        width: 350px;
+    }
+
+    /* .malikoHero__secondImg{
+        width: 100px;
+    } */
+
+    .malikoHero__leftName > p{
+        font-size: 24px;
+    }
+
+    .malikoHero__right > img{
+        width: 80%;
+    }
+
+    .malikoHero__button{
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .malikoHero{
+        margin-top: 30px;
+    }
+
+    .malikoHero__leftName > img:first-of-type{
+        width: 250px;
+    }
+
+    .malikoHero__leftName > p{
+        font-size: 1rem;
+    }
+
+    .malikoHero__left{
+        padding: 30px 20px 0px;
+    }
+
+    .malikoHero__button{
+        padding: 1rem 1.5rem;
     }
 }

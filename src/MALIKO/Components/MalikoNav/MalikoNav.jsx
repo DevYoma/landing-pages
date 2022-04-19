@@ -14,11 +14,11 @@ const MalikoNav = () => {
     return ( 
         <nav className="malikoNav">
             <ul className='malikoNav__lists' id={click ? "maliko__hidden" : ""}>
-                <li>portfolio</li>
-                <li>about me</li>
-                <li>contact us</li>
-                <li>my blog</li>
-                <li>reviews</li>
+                <li onClick={() => setClick(!click)}>portfolio</li>
+                <li onClick={() => setClick(!click)}>about me</li>
+                <li onClick={() => setClick(!click)}>contact us</li>
+                <li onClick={() => setClick(!click)}>my blog</li>
+                <li onClick={() => setClick(!click)}>reviews</li>
             </ul>
 
             <div className="malikoNav__icon">

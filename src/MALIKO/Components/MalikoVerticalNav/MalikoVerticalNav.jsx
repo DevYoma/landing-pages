@@ -5,7 +5,7 @@ import useWindowDimensions from '../../../Hooks/useWindowDimensions'
 
 const MalikoVerticalNav = () => {
     const { width } = useWindowDimensions()
-    const number = width >= 768
+    const number = width > 768
     return ( 
         <div className="malikoVerticalNav">
             {/* <h3>maliko</h3> */}
