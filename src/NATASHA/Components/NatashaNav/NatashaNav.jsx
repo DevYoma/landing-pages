@@ -5,7 +5,7 @@ import { BsLinkedin } from 'react-icons/bs';
 import { BsVimeo } from 'react-icons/bs';
 import { BsBehance } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
-import { CgMenuRight } from 'react-icons/cg'
+import { CgMenuRight } from 'react-icons/cg' 
 
 
 
