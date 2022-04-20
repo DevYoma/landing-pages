@@ -63,6 +63,7 @@ nav.mikeyNav{
         font-size: 25px;
         color: white ;
         z-index: 1000;
+        /* transition: all 5s ease-in 5s; */
     }
 
 }

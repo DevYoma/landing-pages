@@ -54,7 +54,13 @@ const Home = () => {
           name: "Mathelda", 
           img: mathelda,
           link: '/mathelda'
-        }
+        },
+        // {
+        //   id: 8,
+        //   name: "Scrimba",
+        //   img: null,
+        //   link: "/scrimba"
+        // }
     ])
 
     const mappedDesigns = designs.map(design => (

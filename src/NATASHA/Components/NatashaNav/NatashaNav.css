@@ -117,6 +117,8 @@
         font-size: 25px;
         color: white ;
         z-index: 1000;
+        /* transition: all 0.5s; */
+        border-radius: 0 0 0 50%;
     }
 
     .natashaNav__middle > li{

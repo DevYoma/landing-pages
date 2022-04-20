@@ -4,7 +4,7 @@ import './ScrimbaTransition.css'
 const ScrimbaTransition = () => {
   return (
     <div className='scrimbaTransition'>
-        Yoooo
+      <div className="box"></div>
     </div>
   )
 }
