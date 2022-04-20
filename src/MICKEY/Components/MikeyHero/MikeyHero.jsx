@@ -36,7 +36,7 @@ const MikeyHero = () => {
     return ( 
         <div className="mikeyHero">
             <div className="mikeyHero__left">
-                <img src={MikeyHeroImage} alt="yo" />
+                <img src={MikeyHeroImage} alt="yo"  />
             </div>
 
             <div className="mikeyHero__right">
