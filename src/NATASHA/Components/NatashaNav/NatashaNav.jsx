@@ -13,7 +13,6 @@ const NatashaNav = () => {
     const [click, setClick] = useState(false);
 
     const handleClick = () => {
-        // alert('Working')
         setClick(!click)
     }
     return ( 
@@ -31,13 +30,11 @@ const NatashaNav = () => {
             </ul>
 
             <div className='natashaNav__icons'>
-                {/* <TwitterIcon /> */}
                 <BsTwitter />
                 <BsInstagram />
                 <BsVimeo />
                 <BsBehance />   
                 <BsLinkedin />
-                
             </div>
 
             <CgMenuRight 
