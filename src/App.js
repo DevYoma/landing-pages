@@ -9,6 +9,7 @@ import MalikoPage from './MALIKO/pages/MalikoPage';
 import MikeyPage from './MICKEY/pages/MikeyPage'
 import MatheldaPage from './MATHELDA/Pages/MatheldaPage';
 import ScrimbaPage from './SCRIMBA/Pages/ScrimbaPage';
+import HaggaiPage from './HAGGAI/HaggaiPage'
 import Home from './Home/Home';
 // import TwitterIcon from '@mui/icons-material/Twitter';
 
@@ -50,6 +51,10 @@ function App() {
 
               <Route path="/scrimba">
                 <ScrimbaPage />
+              </Route>
+
+              <Route path='/haggai'>
+                <HaggaiPage />
               </Route>
             
 
