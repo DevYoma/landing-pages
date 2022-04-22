@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* HAGGAI CONTAINER */
+.haggai__container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* PAGE BACKGROUND */
+.haggaiPage{
+    position: relative;
+}
+
+.mainPolygon{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}   
+
+.smalltopPolygon{
+    position: absolute;
+}
+
+.hexagonPolygon{
+    position: absolute;
+    /* left: 893.38px; */
+    right: 0;
+    top: 75px;
+    border-radius: 150px;
+}
+
+/* NAV */
+.haggaiPage__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding-top: 15px;
+}
+
+.haggaiPage__nav > div {
+    display: flex;
+    align-items: center;
+}
+
+.haggaiPage__nav > div > img{
+    margin-right: 3px;
+}
+
+.haggaiPage__navName{
+    /* font-family: 'Poppins'; */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FDFCFA;
+}  
+
+.haggaiPage__navContact{
+    display: flex;
+    align-items: center;
+    padding: 13px 35px;
+    background: #FDFCFA;
+    border: 1px solid #0A2442;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #0A2442;
+}
+
+.haggaiPage__navContact > img{
+    margin-right: 10px;
+}
+
+/* HAGGAI HERO */
+.haggaiPage__hero{
+    margin-top: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1100px) {
+    .haggaiPage__hero{
+        flex-direction: column;
+    }
+
+    
+}
+
+.haggaiPage__heroLeft{
+    /* border: 1px solid red; */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.haggaiPage__heroLeft > div:first-of-type > p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 66px;
+    color: #FFFFFF;
+}
+
+.haggaiPage__heroLeft > div:nth-child(2){
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.haggaiPage__heroCTA{
+    margin-top: 23px;
+    display: flex;
+    /* border: 3px solid red; */
+}
+
+.haggaiPage__heroCTA > button{
+    display: flex;
+    align-items: center;
+    padding: 13px 35px;
+    background: #FDFCFA;
+    border: 1px solid #0A2442;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #0A2442;
+}
+
+.haggaiPage__heroCTA > button:first-of-type{
+    margin-right: 35px;
+}
+
+/* HERO RIGHT */
+.haggaiPage__heroRight{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: flex-end;
+}
+
+.haggaiPage__heroRightDiv{
+    width: 393px;
+    /* height: 322px; */
+    background: #FDFCFA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-right: -150px;
+    z-index: 1000;
+    margin-bottom: 39px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.haggaiPage__heroRightDiv > div{
+    width: 313px;
+    background: #FFFFFF;
+    /* background: whitesmoke; */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1
+}
+
+.haggaiPage__heroRightDiv > div:nth-child(2){
+    margin-top: 10px;
+}
+

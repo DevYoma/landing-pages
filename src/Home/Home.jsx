@@ -61,6 +61,12 @@ const Home = () => {
         //   img: null,
         //   link: "/scrimba"
         // }
+        {
+          id: 8, 
+          name: "Haggai", 
+          img: null,
+          link: "/haggai"
+        }
     ])
 
     const mappedDesigns = designs.map(design => (
