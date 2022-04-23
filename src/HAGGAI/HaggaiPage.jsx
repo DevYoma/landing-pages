@@ -10,12 +10,11 @@ import android from './assets/android.png'
 import ios from './assets/ios.png';
 import HeroCard from './Components/HeroCard/HeroCard';
 import HeroSectionOne from './Components/HeroSectionOne/HeroSectionOne';
-// import Phone from './assets/phone.png'
-// import Polygon from './assets/polygon.png'
 
 const HaggaiPage = () => {
 
   const rotate = ["left", "right", "normal"]
+  const imageColor = ['pink', 'gray', 'blue']
 
   return (
   <div className="haggaiPage">
@@ -80,6 +79,7 @@ const HaggaiPage = () => {
       <HeroSectionOne 
         flexDirection={false}
         rotate={rotate[2]}
+        image={imageColor[0]}
         // image={}
         // iconImg1={}
         // iconImg2{}
@@ -88,11 +88,15 @@ const HaggaiPage = () => {
       <HeroSectionOne 
         flexDirection={true}
         rotate={rotate[1]}
+        image={imageColor[1]}
+
       />
 
       <HeroSectionOne 
         flexDirection={false}
         rotate={rotate[0]}
+        image={imageColor[2]}
+
       />
   </div>
   )
