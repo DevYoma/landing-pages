@@ -147,6 +147,11 @@
     color: #0A2442;
 }
 
+.haggaiPage__heroCTA > button > img{
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
 .haggaiPage__heroCTA > button:first-of-type{
     margin-right: 35px;
 }
