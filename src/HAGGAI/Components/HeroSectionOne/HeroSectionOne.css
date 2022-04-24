@@ -1,7 +1,7 @@
 .heroSectionOne{
-    margin-top: 341px;
+    margin-top: 225px;
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .heroSectionOne__flexDirection{

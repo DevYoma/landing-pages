@@ -6,11 +6,41 @@ import GrayPolygon from './assets/grayPolygon.png';
 import BluePolygon from './assets/bluePolygon.png';
 import Icon1 from './assets/Icon1.svg'
 import PinkCircle from './assets/pinkCircle.png'
+import Icon2 from './assets/Icon2.svg';
+import GrayCircle from './assets/grayCircle.png';
+import Icon3 from './assets/Icon3.svg';
+import BlueCircle from './assets/blueCircle.png';
+
 
 const HeroSectionOne = ({ flexDirection, rotate, image, icon }) => {
-    // console.log(flexDirection)
-    // console.log(rotate)
-    // console.log(image)
+
+    let iconObject = {
+        iconSrc: null,
+        backgroundSrc: null
+    };
+    switch (icon) {
+        case icon = 1:
+            iconObject = {
+                iconSrc: Icon1,
+                backgroundSrc: PinkCircle
+            }
+            break;
+        case icon = 2:
+            iconObject = {
+                iconSrc: Icon2,
+                backgroundSrc: GrayCircle
+            }
+            break;
+        case icon = 3:
+            iconObject = {
+                iconSrc: Icon3,
+                backgroundSrc: BlueCircle
+            }
+            break;
+    
+        default:
+            break;
+    }
 
     let imageColor;
     switch (image) {
@@ -50,8 +80,8 @@ const HeroSectionOne = ({ flexDirection, rotate, image, icon }) => {
         </div>
         <div className='heroSectionOne__right'>
             <div className='heroSectionOne__rightIcon'>
-                <img src={Icon1} alt="icon1" />
-                <img src={PinkCircle} alt="pinkCircle" />
+                <img src={iconObject.iconSrc} alt="icon1" />
+                <img src={iconObject.backgroundSrc} alt="pinkCircle" />
             </div>
 
             <div className="heroSectionOne__rightHeading">
