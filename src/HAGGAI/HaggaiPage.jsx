@@ -99,7 +99,7 @@ const HaggaiPage = () => {
         icon={iconPicture[2]}
       />
 
-      <HaggaiFooter />
+      <HaggaiFooter />  
   </div>
   )
 }

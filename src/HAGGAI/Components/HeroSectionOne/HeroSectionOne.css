@@ -1,7 +1,7 @@
 .heroSectionOne{
     margin-top: 225px;
     display: flex;
-    /* border: 1px solid red; */
+    /* border: 5px solid red; */
 }
 
 .heroSectionOne__flexDirection{
@@ -92,10 +92,10 @@
     .heroSectionOne{
         flex-direction: column;    
         flex-wrap: wrap;
-        /* text-align: center; */
         justify-content: center;    
         align-items: center;
         margin-top: 100px;
+        overflow-x: hidden;
     }
 
     .heroSectionOne__left{
@@ -105,6 +105,7 @@
 
     .heroSectionOne__left > img{
         max-width: 70%;
+        /* padding: 0 10px; */
     }
 
     .heroSectionOne__right > div{
