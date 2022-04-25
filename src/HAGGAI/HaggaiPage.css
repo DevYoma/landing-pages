@@ -9,6 +9,7 @@
 /* PAGE BACKGROUND */
 .haggaiPage{
     position: relative;
+    overflow-x: hidden;
 }
 
 .mainPolygon{
@@ -95,7 +96,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 @media screen and (max-width: 1100px) {
@@ -120,13 +121,14 @@
     .haggaiPage__heroRight{
         margin-top: 60px;
         flex-direction: column;
-        border: 5px solid yellow;
+        /* border: 5px solid yellow; */
         width: max-content;
     }
 
     /* the bug is here */
     .haggaiPage__heroRightDiv{
         margin-left: -150px;
+        /* padding: 10px; */
     }
 
     .haggaiPage__heroRight > img{
@@ -212,7 +214,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 40px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .haggaiPage__heroRightDiv > div{
