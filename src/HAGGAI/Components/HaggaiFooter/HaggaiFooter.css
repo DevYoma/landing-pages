@@ -84,3 +84,23 @@
     text-transform: capitalize;
     color: #FDFCFA;
 }
+
+@media screen and (max-width: 768px) {
+
+    .haggaiFooter__haggai{
+        top: 20px;
+    }
+
+    .haggaiFooter__haggai > span {
+        font-size: 1rem;
+    }
+
+    .haggaiFooter__buttonDiv{
+        display: none;
+    }
+
+    .haggaiFooter__name{
+        font-size: 14px;
+        margin-top: 1rem;
+    }
+}
