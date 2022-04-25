@@ -83,20 +83,57 @@
     margin-right: 10px;
 }
 
+@media screen and (max-width: 1100px) {
+    .haggaiPage__nav{
+        background: #162F4A;
+    }
+}
+
 /* HAGGAI HERO */
 .haggaiPage__hero{
     margin-top: 66px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid red;
 }
 
 @media screen and (max-width: 1100px) {
-    .haggaiPage__hero{
-        flex-direction: column;
+    .haggai__container{
+        width: 100%;
+        padding: 0 20px;
     }
 
-    
+    .mainPolygon, 
+    /* .smalltopPolygon, */
+    .hexagonPolygon{
+        display: none;
+    }
+
+    .haggaiPage__hero{
+        flex-direction: column;
+        background: #162F4A;
+        margin-top: 0px;
+        padding-top: 30px;
+    }
+
+    .haggaiPage__heroRight{
+        margin-top: 60px;
+        flex-direction: column;
+        border: 5px solid yellow;
+        width: max-content;
+    }
+
+    /* the bug is here */
+    .haggaiPage__heroRightDiv{
+        margin-left: -150px;
+    }
+
+    .haggaiPage__heroRight > img{
+        display: none;
+        /* width: 70%; */
+    }
+
 }
 
 .haggaiPage__heroLeft{
@@ -164,8 +201,6 @@
 }
 
 .haggaiPage__heroRightDiv{
-    width: 393px;
-    /* height: 322px; */
     background: #FDFCFA;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -177,6 +212,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 40px;
+    border: 1px solid red;
 }
 
 .haggaiPage__heroRightDiv > div{
