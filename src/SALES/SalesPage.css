@@ -1,0 +1,10 @@
+.salesPage{
+    background: #E5E5E5;
+    min-height: 100vh;
+}
+
+.salesContainer{
+    /* border: 1px solid red; */
+    max-width: 1440px;
+    margin: 0 auto;
+}

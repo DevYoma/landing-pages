@@ -66,6 +66,12 @@ const Home = () => {
           name: "Haggai", 
           img: null,
           link: "/haggai"
+        }, 
+        {
+          id: 9, 
+          name: "Loan App",
+          img: null, 
+          link: '/loan'
         }
     ])
 

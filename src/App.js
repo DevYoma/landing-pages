@@ -11,6 +11,8 @@ import MatheldaPage from './MATHELDA/Pages/MatheldaPage';
 import ScrimbaPage from './SCRIMBA/Pages/ScrimbaPage';
 import HaggaiPage from './HAGGAI/HaggaiPage'
 import Home from './Home/Home';
+import LoanPage from './LOAN_APP/LoanPage';
+import SalesPage from './SALES/SalesPage';
 // import TwitterIcon from '@mui/icons-material/Twitter';
 
 function App() {
@@ -56,7 +58,14 @@ function App() {
               <Route path='/haggai'>
                 <HaggaiPage />
               </Route>
+
+              <Route path='/loan'>
+                <LoanPage />
+              </Route>
             
+              <Route path='/sales'>
+                <SalesPage />
+              </Route>
 
               <Route path="/">
                 <Home />

@@ -60,7 +60,7 @@ const AntiqueRecentlyAdded = () => {
     ]
 
     const mappedData = data.map(item => (
-        <AntiqueRecentlyAddedItem item={item}/>
+        <AntiqueRecentlyAddedItem  key={item.bids} item={item}/>
     ))
 
     return ( 

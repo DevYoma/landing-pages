@@ -1,0 +1,13 @@
+.salesNav > button{
+    background: #0029FF;
+    border-radius: 15px;
+    color: #fff;
+    padding: 24.5px 42.5px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+}

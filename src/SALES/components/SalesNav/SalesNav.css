@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.salesNav{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 75px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.salesNav > div > p:first-of-type{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #0F1A51;
+}
+
+.salesNav > div > p:nth-child(2){
+    color: #0029FF;
+    font-size: 32px;
+    font-weight: bold;
+}

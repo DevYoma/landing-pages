@@ -1,0 +1,10 @@
+.salesContact{
+    margin-top: 100px;
+}
+
+.salesContact > p{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    color: #0029FF;
+}
