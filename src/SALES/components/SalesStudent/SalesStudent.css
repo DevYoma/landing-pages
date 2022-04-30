@@ -1,0 +1,106 @@
+.salesStudent{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.salesStudent > h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #101A50;
+    margin-bottom: 50px;
+}
+
+.salesStudent__reviews{
+    margin-bottom: 167px;
+    /* border: 3px solid purple; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+}
+
+@media screen and (max-width: 900px) {
+    .salesStudent__reviews{
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .salesStudent__reviews{
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.salesStudent__review{
+    /* border: 4px solid green; */
+}
+
+.salesStudent__reviewTop{
+    display: flex;
+    align-items: center;
+}
+
+.salesStudent__reviewTop > img{
+    width: 170px;
+    height: 170px;
+    margin-right: 37px;
+    object-fit: contain;
+    border-radius: 99%;
+    /* border: 4px solid #428AF7; */
+}
+
+.salesStudent__reviewTop > div > h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.salesStudent__reviewTop > div > p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.salesStudent__reviewBottom{
+    margin-top: 30px;
+}
+
+/* LAST SECTION */
+.salesStudent__preOrder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.salesStudent__preOrder > div > p{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #101A50;
+}
+
+.salesStudent__preOrder > button{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left: auto;
+    background: #0029FF;
+    border-radius: 15px;
+    color: #fff;
+    padding: 24.5px 42.5px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+}
+

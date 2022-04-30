@@ -1,0 +1,121 @@
+.loanPage__container{
+    height: 100vh;
+    /* background: blue; */
+    position: relative;
+}
+
+.loanPage__containerBackground{
+    display: flex;
+}
+
+.loanPage__containerBackground > div{
+    flex: 0.5;
+    /* border: 1px solid red; */
+    height: 100vh;
+}
+
+.loanPage__containerBackground > div:first-of-type{
+    background:#ECBC76;
+}
+
+.loanPage__containerBackground > div:nth-child(2){
+    background: #FFFEF9;
+}
+
+.loanPage__form{
+    width: 30%;
+    background: white;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    padding: 25px 45px 80px;
+}
+
+.loanPage__formHeader{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.loanPage__formHeader > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.loanPage__formHeader > h3{
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.loanPage__form > label{
+    /* color: red; */
+    text-transform: capitalize;
+}
+
+.loanPage__form > input{
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    background: #FFFFFF;
+    border: 1px solid #ADADAD;
+}
+
+.loanPage__form > input,
+.loanPage__form > button{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.loanPage__form > button{
+    background: #E48700;
+    box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+    padding: 15px 0;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.loanPage__form > button:hover{
+    background: #ebad50;
+    /* color: black; */
+}
+
+.loanPage__result{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+.loanPage__result > span {
+    font-weight: bold;
+}
+
+.loanPage__clearButton{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .loanPage__container{}
+
+    .loanPage__containerBackground > div:nth-child(2){
+        background: #ECBC76;
+    }
+
+    .loanPage__form{
+        width: 85%;
+        top: 1%;
+        left: 5%;
+        padding: 25px 15px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,32 @@
+.salesFooter{
+    margin-top: 145px;
+    display: flex;
+    /* align-items: center; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.salesFooter > div:first-of-type{
+    margin-right: 100px;
+}
+
+.salesFooter__descriptionHeading > h2{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #101A50;
+}
+
+.salesFooter__descriptionHeading > span{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    color: #0029FF;
+}
+
+.salesFooter__description > p{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+}
