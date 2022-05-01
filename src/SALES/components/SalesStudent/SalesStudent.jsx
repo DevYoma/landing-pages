@@ -3,8 +3,6 @@ import './SalesStudent.css';
 import { StudentReview } from '../../miniComponent/StudentReviewDetails/StudentReview'
 
 const SalesStudent = () => {
-    // 2,3,4,5,6,7,8,9
-    const array = [1, ]
   return (
    <div className="salesStudent salesContainer">
        <h3>Student Component</h3>

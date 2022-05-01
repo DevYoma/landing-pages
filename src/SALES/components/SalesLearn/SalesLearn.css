@@ -61,3 +61,34 @@
     line-height: 29px;
     cursor: pointer;
 }
+
+/* TABLETS */
+@media screen and (max-width: 768px) {
+    .salesLearn__list{
+        flex-direction: column;
+    }
+
+    .salesLearn__items > div > p{
+        font-size: 30px;
+    }
+
+    .salesLearn__items > img{
+        margin-right: 25px;
+    }
+
+    .salesLearnButton{
+        padding: 12.5px 21.5px ;
+        font-size: 1rem;
+    }
+}
+
+/* PHONES */
+@media screen and (max-width: 450px) {
+    .salesLearn__items > div > p{
+        font-size: 21px;
+    }
+
+    .salesLearn__items > img{
+        margin-right: 1rem;
+    }
+}
