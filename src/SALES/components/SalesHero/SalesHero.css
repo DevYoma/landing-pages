@@ -38,3 +38,46 @@
     cursor: pointer;
     margin-top: 25px;
 }
+
+@media screen and (max-width: 1200px) {
+    .salesHero{
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .salesHeroLeft__button{
+        margin-bottom: 20px;
+    }
+}
+
+/* TABLETS */
+@media screen and (max-width: 768px) {
+
+    .salesHeroLeft > p{
+        font-size: 3.5rem;
+        line-height: 67px;
+        /* color: red; */
+    }
+
+    .salesHeroLeft__miniDescription > p{
+        font-size: 22px;
+    }
+
+    .salesHeroLeft__button{
+        padding: 12.5px 21.5px;
+        font-size: 1rem;
+    }
+
+    /* TARGETTING IMAGE */
+    .salesHero > div:nth-child(2) > img{
+        width: 100%;
+    }
+}
+
+/* PHONES */
+@media screen and (max-width: 450px) {
+    .salesHeroLeft > p{
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+}

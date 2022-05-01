@@ -22,3 +22,29 @@
     font-size: 32px;
     font-weight: bold;
 }
+
+/* TABLETS */
+@media screen and (max-width: 768px) {
+    .salesNav{
+        padding-top: 40px
+    }
+
+    .salesNav > div > p:first-of-type,
+    .salesNav > div > p:nth-child(2){
+        font-size: 22px;
+    }
+}
+
+/* PHONES */
+@media screen and (max-width: 450px) {
+    .salesNav{
+        background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        padding: 14.5px 15.35px ;
+    }
+
+    .salesNav > div > p:first-of-type,
+    .salesNav > div > p:nth-child(2){
+        color: white;
+    }
+}

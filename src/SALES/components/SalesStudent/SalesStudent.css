@@ -21,21 +21,7 @@
     grid-row-gap: 50px;
 }
 
-@media screen and (max-width: 900px) {
-    .salesStudent__reviews{
-        grid-template-columns: repeat(2, 1fr);
-        width: 90%;
-        margin: 0 auto;
-    }
-}
 
-@media screen and (max-width: 768px) {
-    .salesStudent__reviews{
-        grid-template-columns: repeat(1, 1fr);
-        width: 80%;
-        margin: 0 auto;
-    }
-}
 
 .salesStudent__review{
     /* border: 4px solid green; */
@@ -104,3 +90,65 @@
     cursor: pointer;
 }
 
+/* 900PX */
+
+@media screen and (max-width: 900px) {
+    .salesStudent__reviews{
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        grid-column-gap:35px ;
+    }
+
+    .salesStudent__reviewTop > img{
+        margin-right: 15px;
+    }
+
+    .salesStudent__reviewTop > div > h2{
+        font-size: 28px;
+    }
+
+    .salesStudent__reviewTop > div > p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .salesStudent__reviews{
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+/* TABLETS */
+@media screen and (max-width: 768px) {
+    .salesStudent__reviews{
+        margin-bottom: 75px;
+    }
+
+    .salesStudent > h3{
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+
+    .salesStudent__preOrder{
+        flex-direction: column;
+    }
+
+    .salesStudent__preOrder > button{
+       margin: 20px 0 0;
+    }
+
+    .salesStudent__preOrder > div > p{
+        font-size: 24px ;
+        line-height: 35px;
+    }
+
+    .salesStudent__preOrder > button{
+        padding: 12.5px 21.5px;
+        font-size: 1rem;
+    }
+}
+
+/* PHONES */

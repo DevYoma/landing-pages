@@ -30,3 +30,60 @@
     line-height: 58px;
     color: #000000;
 }
+
+@media screen and (max-width: 1200px) {
+    .salesFooter{
+        flex-direction: column;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+
+    .salesFooter > div > img{
+        margin: 0 auto;
+    }
+}
+
+/* TABLETS */
+@media screen and (max-width: 768px) {
+    .salesFooter{
+        margin-top: 75px;
+    }
+
+    .salesFooter__descriptionHeading > h2{
+        font-size: 50px;
+        line-height: 67px;
+    }
+
+    .salesFooter__descriptionHeading > span{
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .salesFooter__description > p{
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+
+/* PHONES */
+@media screen and (max-width: 500px) {
+    .salesFooter__descriptionHeading > h2{
+        font-size: 36px;
+        line-height: 55px;
+    }
+
+    .salesFooter > div:first-of-type > img{
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .salesFooter__descriptionHeading > span{
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .salesFooter__description > p{
+        font-size: 20px;
+        line-height: 35px;
+    }
+}

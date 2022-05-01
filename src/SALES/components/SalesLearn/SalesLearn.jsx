@@ -1,12 +1,9 @@
 import React from 'react'
-// import SalesButton from '../SalesButton/SalesButton';
-import SalesButton from '../SalesButton/SalesButton'
 import './SalesLearn.css';
 import Vector from '../../assets/Vector.png'
 import { salesLearnRight, salesLearnLeft } from '../../miniComponent/Learn/Learn'
 
 const SalesLearn = () => {
-  const array = [0, 1, 2, 3, 4, 5]
   return (
     <div className="salesLearn salesContainer">
         <h3>What you will learn</h3>
@@ -19,7 +16,6 @@ const SalesLearn = () => {
                   <img src={Vector} alt="Icon" />
                   <div>
                     <p>{list.text}</p>
-                    {/* <p>UX designer using Figma.</p> */}
                   </div>
                 </div>
               ))
