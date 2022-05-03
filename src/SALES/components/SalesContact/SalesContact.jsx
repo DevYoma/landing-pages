@@ -11,19 +11,19 @@ const SalesContact = () => {
     {
       id: 1, 
       name: "Gmail",
-      link: "",
+      link: "mailto: ayodejiomonijo@gmail.com",
       icon: Gmail
     },
     {
       id: 2, 
       name: "Twitter",
-      link: "", 
+      link: "https://twitter.com/AyodejiOmonijo1", 
       icon: TwitterIcon
     },
     {
       id: 3, 
       name: "LinkedIn",
-      link: "",
+      link: "https://www.linkedin.com/in/ayodeji-omonijo-735392225/",
       icon: LinkedInIcon
     }
   ]
@@ -35,7 +35,7 @@ const SalesContact = () => {
             {
               contactObjects.map((contactItem) => (
                 <div className="salesContact__link" key={contactItem.id}>
-                  <img src={contactItem.icon} alt={contactItem.name} /> <span><a href="">{contactItem.name}</a> </span>
+                  <img src={contactItem.icon} alt={contactItem.name} /> <span><a href={contactItem.link} target="_blank">{contactItem.name}</a> </span>
                 </div>
               ))
             }
