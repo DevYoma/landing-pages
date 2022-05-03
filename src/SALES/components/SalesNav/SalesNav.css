@@ -3,10 +3,14 @@
 .salesNav{
     /* border: 1px solid red; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     padding-top: 75px;
     font-family: 'Poppins', sans-serif;
+}
+
+.salesNav > div:first-of-type {
+    margin-right: auto;
 }
 
 .salesNav > div > p:first-of-type{
@@ -25,6 +29,11 @@
 
 /* TABLETS */
 @media screen and (max-width: 768px) {
+
+    .salesNav > .salePricing {
+        display: none;
+    }
+
     .salesNav{
         padding-top: 40px
     }
@@ -39,8 +48,12 @@
 @media screen and (max-width: 450px) {
     .salesNav{
         background: rgba(0, 0, 0, 0.7);
+        /* background: black; */
         width: 100%;
         padding: 14.5px 15.35px ;
+        /* position: sticky;
+        top: 0;
+        z-index: 1000; */
     }
 
     .salesNav > div > p:first-of-type,

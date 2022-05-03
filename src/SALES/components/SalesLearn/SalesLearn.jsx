@@ -4,6 +4,11 @@ import Vector from '../../assets/Vector.png'
 import { salesLearnRight, salesLearnLeft } from '../../miniComponent/Learn/Learn'
 
 const SalesLearn = () => {
+
+  const handleClick = () => {
+    window.location.href="https://paystack.com/pay/learnwithayodejiomonijo"
+  }
+
   return (
     <div className="salesLearn salesContainer">
         <h3>What you will learn</h3>
@@ -37,9 +42,16 @@ const SalesLearn = () => {
           </div>
         </div>
 
-        <button className="salesLearnButton">
-          Pre-Order
-        </button>
+        <div className='salesLearn__BottomDiv'>
+          <button className="salesLearnButton" onClick={handleClick}>
+            Pre-Order
+          </button>
+          
+          <div className="salesLearnPricing">
+            <p className="pricing1">&#8358;10,000</p>
+            <p className="pricing2">&#8358;15,000</p>
+          </div>
+        </div>
     </div>
   )
 }

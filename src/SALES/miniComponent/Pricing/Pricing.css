@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.pricing{
+    font-family: 'Poppins', sans-serif;
+}
+
+.pricing1{
+    font-weight: 600;
+    font-size: 34.2314px;
+    line-height: 41px;
+    color: #101A50;
+    /* color: red; */
+}
+
+.pricing2{
+    font-weight: 600;
+    font-size: 27.3851px;
+    line-height: 33px;
+    text-decoration-line: line-through;
+    color: #F70303;
+}
+
+@media screen and (max-width: 768px) {
+    .pricing1{
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .pricing2{
+        font-size: 1rem;
+        line-height: 22px;
+    }
+}

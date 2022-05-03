@@ -3,7 +3,7 @@ import './SalesButton.css';
 
 const SalesButton = () => {
   const handleClick = () => {
-    window.location.href="https://devyoma.netlify.app"
+    window.location.href="https://paystack.com/pay/learnwithayodejiomonijo"
   }
   return (
     <button onClick={handleClick} className='salesNav__button'>

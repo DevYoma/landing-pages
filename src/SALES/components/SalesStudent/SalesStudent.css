@@ -17,6 +17,7 @@
     /* border: 3px solid purple; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 30%); */
     grid-column-gap: 20px;
     grid-row-gap: 50px;
 }
@@ -64,16 +65,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* border: 1px solid red; */
 }
 
-.salesStudent__preOrder > div > p{
+.salesStudent__preOrder > div:first-of-type > p{
     font-weight: 600;
     font-size: 48px;
     line-height: 58px;
     color: #101A50;
 }
 
-.salesStudent__preOrder > button{
+.salesLearnPricing{
+    margin-left: 10px;
+}
+
+.salesStudent__preOrder > div:nth-child(2) > button{
     /* border: 1px solid red; */
     display: flex;
     margin-left: auto;
@@ -88,6 +94,12 @@
     font-size: 24px;
     line-height: 29px;
     cursor: pointer;
+}
+
+.salesStudent__preOrder > div:nth-child(2){
+    /* border: 3px solid purple; */
+    display: flex;
+    align-items: center;
 }
 
 /* 900PX */
@@ -118,6 +130,10 @@
         width: 80%;
         margin: 0 auto;
     }
+
+    .salesStudent__preOrder > div:nth-child(2) > div{
+        margin-top: 25px;
+    }
 }
 
 
@@ -136,16 +152,16 @@
         flex-direction: column;
     }
 
-    .salesStudent__preOrder > button{
+    .salesStudent__preOrder > div:nth-child(2) > button{
        margin: 20px 0 0;
     }
 
-    .salesStudent__preOrder > div > p{
+    .salesStudent__preOrder > div:first-of-type > p{
         font-size: 24px ;
         line-height: 35px;
     }
 
-    .salesStudent__preOrder > button{
+    .salesStudent__preOrder > div:nth-child(2) > button{
         padding: 12.5px 21.5px;
         font-size: 1rem;
     }
