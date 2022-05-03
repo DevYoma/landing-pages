@@ -4,6 +4,8 @@ import Student2 from '../../assets/Student2.png'
 import Student3 from '../../assets/Student3.png'
 import Student4 from '../../assets/Student4.png'
 import Student5 from '../../assets/Student5.png'
+import Student6 from '../../assets/Student6.png'
+import Student7 from '../../assets/Student7.png';
 
 export const StudentReview = [
     {
@@ -41,20 +43,20 @@ export const StudentReview = [
         testimonial: "The course is a very good one. It breaks down everything a beginner needs to know into bite size and easy to understand concept. You can never go wrong with the course.",
         circleColor: "#42ECF7"
     },
-    // {
-    //     id: 6, 
-    //     image: Image,
-    //     name: "Martins",
-    //     testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio lobortis malesuada eu ultricies. Scelerisque dignissim tellus magnis libero aliquet urna, cras quis. Velit etiam scelerisque vitae proin morbi vitae.",
-    //     circleColor: "#F7A342"
-    // },
-    // {
-    //     id: 7, 
-    //     image: Image,
-    //     name: "Martins",
-    //     testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio lobortis malesuada eu ultricies. Scelerisque dignissim tellus magnis libero aliquet urna, cras quis. Velit etiam scelerisque vitae proin morbi vitae.",
-    //     circleColor: "#DD42F7"
-    // },
+    {
+        id: 6, 
+        image: Student6,
+        name: "Peter",
+        testimonial: "It's been very amazing as the tutor takes out time to make sure all students are up to date with his classes. The amount of professionalism put into his videos and the content are simply astounding too. Anyone can learn well with him!! ",
+        circleColor: "#CD2B5E"
+    },
+    {
+        id: 7, 
+        image: Student7,
+        name: "Kingsley",
+        testimonial: "Great and easy to comprehend, the only challenges I encountered was data issues",
+        circleColor: "#F6CF42"
+    },
     // {
     //     id: 8, 
     //     image: Image,

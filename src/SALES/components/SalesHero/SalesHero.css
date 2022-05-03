@@ -24,6 +24,11 @@
     color: #0F1A51;
 }
 
+.salesHeroLeft__miniDescription > p:nth-child(2) > span{
+    color:#0029FF;
+    font-weight: bold;
+}
+
 .salesHeroLeft__div{
     display: flex;
     align-items: center;

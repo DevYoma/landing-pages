@@ -1,39 +1,46 @@
 import React from 'react'
 import './SalesContact.css';
 import TwitterIcon from '../../assets/twitterIcon.png'
-import GoogleIcon from '../../assets/googleIcon.png'
 import LinkedInIcon from '../../assets/linkedInIcon.png'
+import Gmail from '../../assets/gmail.png'
+import Phone from '../../assets/Phone.png'
 
-const saleContactButton ={
-  // padding: "50px",
-  padding: "30px",
-  background: '#E3E7FD',
-  borderRadius: "64.2237px", 
-  display: "flex",
-  alignItems: "center"
-}
-
-const imgStyle = {
-  width: "86.72px", 
-  height: "70.48px",
-}
-
-const SalesContactButton = ({ name, icon, link }) => (
-  <button onClick={() => window.location.href=`https://${link}`} style={saleContactButton}>
-     <img style={imgStyle} src={icon} alt={name} />{name}
-  </button>
-)
 
 const SalesContact = () => {
+  const contactObjects = [
+    {
+      id: 1, 
+      name: "Gmail",
+      link: "",
+      icon: Gmail
+    },
+    {
+      id: 2, 
+      name: "Twitter",
+      link: "", 
+      icon: TwitterIcon
+    },
+    {
+      id: 3, 
+      name: "LinkedIn",
+      link: "",
+      icon: LinkedInIcon
+    }
+  ]
+  
   return (
       <div className="salesContact salesContainer">
           <p>Contact Info</p>
-          <div className="salesContactDiv">
-            {/* <SalesContactButton name="Google" link="ayodejiomonijo@gmail.com"/> */}
-            <SalesContactButton icon={TwitterIcon} name="Twitter" link="twitter.com/AyodejiOmonijo1?"/>
-            <SalesContactButton icon={LinkedInIcon} name="LinkedIn" link="www.linkedin.com/in/ayodeji-omonijo-735392225/" />
+          <div className="salesContact__links">
+            {
+              contactObjects.map((contactItem) => (
+                <div className="salesContact__link" key={contactItem.id}>
+                  <img src={contactItem.icon} alt={contactItem.name} /> <span><a href="">{contactItem.name}</a> </span>
+                </div>
+              ))
+            }
           </div>
-          <p>Phone Number: +2349034016273</p>
+          <p className='salesContact__2ndParagraph'> <img src={Phone} alt="phone" /> +2349034016273</p>
       </div>
   )
 }

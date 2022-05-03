@@ -15,7 +15,7 @@ const SalesPage = () => {
         <SalesLearn />
         <SalesStudent />
         <SalesFooter />
-        {/* <SalesContact /> */}
+        <SalesContact />
     </div>
   )
 }

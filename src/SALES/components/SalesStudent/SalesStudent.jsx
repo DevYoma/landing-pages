@@ -8,7 +8,7 @@ const SalesStudent = () => {
     }
   return (
    <div className="salesStudent salesContainer">
-       <h3>Student Component</h3>
+       <h3>Student Reviews</h3>
 
         <div className="salesStudent__reviews">
             {
