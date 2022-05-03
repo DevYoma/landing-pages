@@ -2,34 +2,7 @@
     margin-top: 100px;
 }
 
-.salesContact > p{
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 58px;
-    color: #0029FF;
-}
-
-/* TABLETS */
-@media screen and (max-width: 768px) {
-    .salesContact{
-        margin-top: 70px;
-    }
-
-    .salesContact > p{
-        font-size: 40px;
-        line-height: 50px;
-    }
-}
-
-/* PHONES */
-@media screen and (max-width: 500px) {
-    .salesContact{
-        margin-top: 50px;
-        padding-bottom: 30px;
-    }
-
-    .salesContact > p{
-        font-size: 1.3rem;
-        line-height: 35px;
-    }
+.salesContactDiv{
+    border: 1px solid red;
+    display: flex;
 }

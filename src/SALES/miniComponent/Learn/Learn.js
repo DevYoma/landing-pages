@@ -46,9 +46,4 @@ export const salesLearnRight = [
         id: 5, 
         text: "Full time access to the course creator"
     },
-    {
-        id: 6, 
-        text: "Full time access to the course creator"
-    }
-
 ]

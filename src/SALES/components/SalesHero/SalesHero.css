@@ -24,6 +24,24 @@
     color: #0F1A51;
 }
 
+.salesHeroLeft__div{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.salesHeroLeft__div > .pricing{
+    margin-top: 25px;
+    margin-left: 63px;
+}
+
+@media screen and (max-width: 768px) {
+    .salesHeroLeft__div > .pricing{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+}
+
 .salesHeroLeft__button{
     background: #0029FF;
     border-radius: 15px;
