@@ -10,6 +10,7 @@ import natasha from './assets/natasha.png'
 import venissa from './assets/venissa.png'
 import mathelda from './assets/mathelda.png'
 import mikey from './assets/mikey.png'
+import Baloon from './assets/HelloImage.png'
 
 const Home = () => {
     const [designs] = useState([
@@ -56,83 +57,100 @@ const Home = () => {
           link: '/mathelda'
         },
         // {
-        //   id: 8,
-        //   name: "Scrimba",
+        //   id: 8, 
+        //   name: "Haggai", 
         //   img: null,
-        //   link: "/scrimba"
+        //   link: "/haggai"
+        // }, 
+        // {
+        //   id: 9, 
+        //   name: "Loan App",
+        //   img: null, 
+        //   link: '/loan'
         // }
-        {
-          id: 8, 
-          name: "Haggai", 
-          img: null,
-          link: "/haggai"
-        }, 
-        {
-          id: 9, 
-          name: "Loan App",
-          img: null, 
-          link: '/loan'
-        }
     ])
 
-    const mappedDesigns = designs.map(design => (
-        <div key={design.id}>
-            <div className="homeCard__top">
-                <h2>{design.id}</h2> 
-                <img style={{ border: '1px solid red', width: "60%", objectFit: "contain" }} src={design.img} alt="image" /> 
-                <Link to={design.link}>{design.name}</Link>
-            </div>
-        </div>
-    ))
+    // const mappedDesigns = designs.map(design => (
+    //     <div key={design.id}>
+    //         <div className="homeCard__top">
+    //             <h2>{design.id}</h2> 
+    //             <img style={{ border: '1px solid red', width: "60%", objectFit: "contain" }} src={design.img} alt="image" /> 
+    //             <Link to={design.link}>{design.name}</Link>
+    //         </div>
+    //     </div>
+    // ))
 
     
   return (
-    <div className='home'>
-         <h1>Welcome to this page</h1>
-        <p>Built by <a href="https://devyoma.netlify.app"  target="_blank">Yoma</a> </p>
-        <p>You can check the repository here 
-        <a href="https://github.com/devyoma/landing-pages" target='_blank'>Github</a>    
-        </p>  
+    <React.Fragment>
+      <div className='home'>
+        <div className="home__repo home__container">
+          <p>You can check the repository here <a href="https://github.com/devyoma/landing-pages" target="_blank" >Github</a></p>
+        </div>
+        <div className="home__hero home__container">
 
-        <h3>My Reasons for Building this</h3>
-        <ul>
-            <li>To improve my CSS Skills</li>
-            <li>To get better at translating designs</li>
-            <li>To help and motivate developers just getting started into tech as you can read through the code base...</li>
-            <li>To solidify my React JS ⚛️ skills </li>
-        </ul>
+          <div className="home__hero-left">
+            <img src={Baloon} alt="baloon" />
+          </div>
 
-        <p style={{ fontWeight: "bold" }}>Special thanks to TENOTEA, he has been really helpful</p>
+          <div className="home__hero-right">
+            <h2>Welcome to </h2>
+            <h2>this page</h2>
+            <p>Built by <a href="https://devyoma.netlify.app" target="_blank">Yoma</a></p>
 
+            <div className="home__hero-rightReasons">
+                <p style={{ textDecoration: "underline", marginBottom: "10px" }}>Reasons why i Built This</p>
+                <li>To improve my CSS Skills</li>
+                <li>To get better at converting designs to code</li>
+                <li>To help and motivate developers just getting started into tech as you can read through the code base...</li>
+                <li>To solidify my React JS ⚛️ skills </li>
+
+              <div className="home__heroThanks">Special Thanks to Tenotea(twitterLink) and Divine(twitterLInk) for their help</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div className="home__designs home__container">
         <h1>Designs</h1>
 
-        {mappedDesigns}
-{/*          
-                <Link to="/antique">Antique Page Design</Link><br />
-                <Link to="/natasha">Natasha Page Design</Link><br />
-                <Link to="/venissa"> 
-                  Venissa Page Design
-                </Link> <br />
-                <Link to='/kamilia'>
-                  Kamilia Page Design
-                </Link> <br />
-                <Link to='/maliko'>
-                  Maliko Page Design
-                </Link> <br />
-                <Link to="/mikey">  
-                  Mikey Page Design
-                </Link> <br />
-                <Link to='/mathelda'>
-                  Mathelda Page Design
-                </Link> <br />
-                <Link to='/scrimba'>
-                  Scrimba Animation Course
-                </Link>
-                 */}
-
-                {/* <TwitterLink /> */}
-    </div>
+        <div className="home__designsFlex">
+          {
+            designs.map((design) => (
+              <div key={design.id} className="home__designFlexItem">
+                <img src={design.img} alt={design.name} />
+              </div>
+            ))
+          }
+        </div>
+        
+      </div>
+    </React.Fragment>
   )
 }
 
 export default Home
+
+
+
+
+
+{/* <h1>Welcome to this page</h1>
+<p>Built by <a href="https://devyoma.netlify.app"  target="_blank">Yoma</a> </p>
+<p>You can check the repository here 
+<a href="https://github.com/devyoma/landing-pages" target='_blank'>Github</a>    
+</p>  
+
+<h3>My Reasons for Building this</h3>
+<ul>
+    <li>To improve my CSS Skills</li>
+    <li>To get better at translating designs</li>
+    <li>To help and motivate developers just getting started into tech as you can read through the code base...</li>
+    <li>To solidify my React JS ⚛️ skills </li>
+</ul>
+
+<p style={{ fontWeight: "bold" }}>Special thanks to TENOTEA, he has been really helpful</p>
+
+<h1>Designs</h1>
+
+{mappedDesigns} */}
