@@ -79,9 +79,14 @@ const Home = () => {
     //         </div>
     //     </div>
     // ))
-
+    
+    const handleDesignRouting = (design) => {
+      window.open(`https://tenoyomalp.netlify.app${design.link}`, "_self")
+      // window.open(`https://tenoyomalp.netlify.app${design.link}`, '_blank')
+    }
     
   return (
+    
     <React.Fragment>
       <div className='home'>
         <div className="home__repo home__container">
@@ -118,7 +123,7 @@ const Home = () => {
           {
             designs.map((design) => (
               <div key={design.id} className="home__designFlexItem">
-                <img src={design.img} alt={design.name} />
+                <img src={design.img} alt={design.name} onClick={() => handleDesignRouting(design)}/>
               </div>
             ))
           }
