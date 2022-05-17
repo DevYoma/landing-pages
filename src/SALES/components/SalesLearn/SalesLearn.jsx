@@ -2,11 +2,13 @@ import React from 'react'
 import './SalesLearn.css';
 import Vector from '../../assets/Vector.png'
 import { salesLearnRight, salesLearnLeft } from '../../miniComponent/Learn/Learn'
+import { paymentLink } from '../../utils'
 
 const SalesLearn = () => {
 
   const handleClick = () => {
-    window.location.href="https://paystack.com/pay/learnwithayodejiomonijo"
+    // window.location.href="https://paystack.com/pay/learnwithayodejiomonijo"
+    window.location.href=`${paymentLink}`
   }
 
   return (
@@ -44,12 +46,12 @@ const SalesLearn = () => {
 
         <div className='salesLearn__BottomDiv'>
           <button className="salesLearnButton" onClick={handleClick}>
-            Pre-Order
+            Order
           </button>
           
           <div className="salesLearnPricing">
-            <p className="pricing1">&#8358;10,000</p>
-            <p className="pricing2">&#8358;15,000</p>
+            <p className="pricing1" id="salePricingUpdated" >&#8358;15,000</p>
+            {/* <p className="pricing2">&#8358;15,000</p> */}
           </div>
         </div>
     </div>

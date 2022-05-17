@@ -20,6 +20,17 @@
     color: #F70303;
 }
 
+#salePricingUpdated{
+    /* color: green; */
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #salePricingUpdated{
+        margin-top: 12px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .pricing1{
         font-size: 24px;
