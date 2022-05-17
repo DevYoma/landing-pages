@@ -10,7 +10,7 @@ const SalesButton = () => {
   }
   return (
     <button onClick={handleClick} className='salesNav__button'>
-        Order
+        Buy Now
     </button>
   )
 }

@@ -41,11 +41,11 @@ const SalesStudent = () => {
 
             <div>
                 <button onClick={handleClick}>
-                    Order
+                    Buy Now
                 </button>
                 <div className="salesLearnPricing">
                     <p className="pricing1">&#8358;15,000</p>
-                    {/* <p className="pricing2">&#8358;15,000</p> */}
+                    <p className="pricing2">&#8358;20,000</p>
                 </div>
             </div>
            
