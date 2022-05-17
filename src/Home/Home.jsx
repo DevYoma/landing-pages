@@ -70,16 +70,6 @@ const Home = () => {
         // }
     ])
 
-    // const mappedDesigns = designs.map(design => (
-    //     <div key={design.id}>
-    //         <div className="homeCard__top">
-    //             <h2>{design.id}</h2> 
-    //             <img style={{ border: '1px solid red', width: "60%", objectFit: "contain" }} src={design.img} alt="image" /> 
-    //             <Link to={design.link}>{design.name}</Link>
-    //         </div>
-    //     </div>
-    // ))
-    
     const handleDesignRouting = (design) => {
       window.open(`https://tenoyomalp.netlify.app${design.link}`, "_self")
       // window.open(`https://tenoyomalp.netlify.app${design.link}`, '_blank')
@@ -99,9 +89,9 @@ const Home = () => {
           </div>
 
           <div className="home__hero-right">
-            <h2>Welcome to </h2>
-            <h2>this page</h2>
-            <p>Built by <a href="https://devyoma.netlify.app" target="_blank">Yoma</a></p>
+            <h2>Landing Page</h2>
+            <h2>React Project</h2>
+            <p>Built by <a href="https://devyoma.netlify.app" target="_blank" rel="noreferrer">Yoma</a></p>
 
             <div className="home__hero-rightReasons">
                 <p style={{ textDecoration: "underline", marginBottom: "10px" }}>Reasons why i Built This</p>

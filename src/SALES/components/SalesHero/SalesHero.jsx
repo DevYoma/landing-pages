@@ -1,11 +1,13 @@
 import React from 'react'
 import './SalesHero.css'
 import HeroImg from '../../assets/heroImage.png'
+import { paymentLink } from '../../utils'
 
 const SalesHero = () => {
 
   const handleClick = () => {
-    window.location.href="https://paystack.com/pay/learnwithayodejiomonijo"
+    // window.location.href="https://paystack.com/pay/learnwithayodejiomonijo"
+    window.location.href=`${paymentLink}`
   }
   return (
       <div className="salesHero salesContainer">
@@ -21,11 +23,11 @@ const SalesHero = () => {
                     
                 <div className='salesHeroLeft__div'>
                   <button className='salesHeroLeft__button' onClick={handleClick}>
-                      Pre-Order
+                      Order
                   </button>
                   <div className="pricing">
-                    <p className="pricing1">&#8358;10,000</p>
-                    <p className="pricing2">&#8358;15,000</p>
+                    <p className="pricing1">&#8358;15,000</p>
+                    {/* <p className="pricing2">&#8358;15,000</p> */}
                   </div>
                 </div>
             </div>

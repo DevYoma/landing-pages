@@ -1,10 +1,12 @@
 import React from 'react'
 import './SalesStudent.css';
 import { StudentReview } from '../../miniComponent/StudentReviewDetails/StudentReview'
+import { paymentLink } from '../../utils';
 
 const SalesStudent = () => {
     const handleClick = () => {
-        window.location.href="https://paystack.com/pay/learnwithayodejiomonijo"
+        // window.location.href="https://paystack.com/pay/learnwithayodejiomonijo"
+        window.location.href=`${paymentLink}`
     }
   return (
    <div className="salesStudent salesContainer">
@@ -39,11 +41,11 @@ const SalesStudent = () => {
 
             <div>
                 <button onClick={handleClick}>
-                    Pre-Order
+                    Order
                 </button>
                 <div className="salesLearnPricing">
-                    <p className="pricing1">&#8358;10,000</p>
-                    <p className="pricing2">&#8358;15,000</p>
+                    <p className="pricing1">&#8358;15,000</p>
+                    {/* <p className="pricing2">&#8358;15,000</p> */}
                 </div>
             </div>
            
