@@ -10,7 +10,8 @@ import natasha from './assets/natasha.png'
 import venissa from './assets/venissa.png'
 import mathelda from './assets/mathelda.png'
 import mikey from './assets/mikey.png'
-import Baloon from './assets/HelloImage.png'
+// import Baloon from './assets/HelloThere.png'
+import YomaPic from './assets/portPic.png'
 
 const Home = () => {
     const [designs] = useState([
@@ -85,7 +86,7 @@ const Home = () => {
         <div className="home__hero home__container">
 
           <div className="home__hero-left">
-            <img src={Baloon} alt="baloon" />
+            <img src={YomaPic} alt="baloon" />
           </div>
 
           <div className="home__hero-right">
@@ -99,8 +100,9 @@ const Home = () => {
                 <li>To get better at converting designs to code</li>
                 <li>To help and motivate developers just getting started into tech as you can read through the code base...</li>
                 <li>To solidify my React JS ⚛️ skills </li>
+                <li>I just wanted to give something back to the community so i just figured out that this is one way i can share with the community</li>
 
-              <div className="home__heroThanks">Special Thanks to Tenotea(twitterLink) and Divine(twitterLInk) for their help</div>
+              <div className="home__heroThanks">Special Thanks to <a href="https://twitter.com/drtenotea">Tenotea</a>(he provided the designs i converted) and <a href="https://twitter.com/ik_thevine">Divine</a>(helped me design the home page for this project) for their help</div>
             </div>
           </div>
         </div>
