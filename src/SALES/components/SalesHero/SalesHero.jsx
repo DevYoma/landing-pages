@@ -23,11 +23,11 @@ const SalesHero = () => {
                     
                 <div className='salesHeroLeft__div'>
                   <button className='salesHeroLeft__button' onClick={handleClick}>
-                      Order
+                      Buy Now
                   </button>
                   <div className="pricing">
                     <p className="pricing1">&#8358;15,000</p>
-                    {/* <p className="pricing2">&#8358;15,000</p> */}
+                    <p className="pricing2">&#8358;20,000</p>
                   </div>
                 </div>
             </div>

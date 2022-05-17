@@ -11,7 +11,6 @@ const pricing1 = {
   fontSize: "34.2314px",
   lineHeight: "41px",
   color: '#101A50'
-  // color: "#F70303",
 
 }
 
@@ -19,8 +18,9 @@ const pricing2 = {
   fontWeight: "600",
   fontSize: "27.3851px",
   lineHeight: "33px",
-  color: "#101A50",
-  // textDecorationLine: "line-through"
+  // color: "#101A50",
+  color: "#F70303",
+  textDecorationLine: "line-through"
 }
 
 const Pricing = () => {
@@ -36,8 +36,8 @@ const Pricing = () => {
   }
   return (
       <div className="pricing" style={removePricing}>
-          {/* <p className="pricing1" style={pricing1}>&#8358;10,000</p> */}
-          <p className="pricing" style={pricing2}>&#8358;15,000</p>
+          <p className="pricing1" style={pricing1}>&#8358;15,000</p>
+          <p className="pricing" style={pricing2}>&#8358;20,000</p>
       </div>
   )
 }
