@@ -1,17 +1,14 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import './Home.css';
-import { FaGithub } from 'react-icons/fa'
-import Pic from './assets/efficientWay.png';
 import antique from './assets/antique.png'
 import kamil from './assets/kamil.png'
 import makilo from './assets/maliko.png'
 import natasha from './assets/natasha.png'
 import venissa from './assets/venissa.png'
-import mathelda from './assets/mathelda.png'
 import mikey from './assets/mikey.png'
-// import Baloon from './assets/HelloThere.png'
 import YomaPic from './assets/portPic.png'
+// import mathelda from './assets/mathelda.png'
+// import Baloon from './assets/HelloThere.png'
 
 const Home = () => {
     const [designs] = useState([
@@ -81,7 +78,8 @@ const Home = () => {
     <React.Fragment>
       <div className='home'>
         <div className="home__repo home__container">
-          <p>You can check the repository here <a href="https://github.com/devyoma/landing-pages" target="_blank" >Github</a></p>
+import Pic from './assets/efficientWay.png';
+          <p>You can check the repository here <a href="https://github.com/devyoma/landing-pages" target="_blank" rel="noreferrer">Github</a></p>
         </div>
         <div className="home__hero home__container">
 
@@ -127,28 +125,4 @@ const Home = () => {
   )
 }
 
-export default Home
-
-
-
-
-
-{/* <h1>Welcome to this page</h1>
-<p>Built by <a href="https://devyoma.netlify.app"  target="_blank">Yoma</a> </p>
-<p>You can check the repository here 
-<a href="https://github.com/devyoma/landing-pages" target='_blank'>Github</a>    
-</p>  
-
-<h3>My Reasons for Building this</h3>
-<ul>
-    <li>To improve my CSS Skills</li>
-    <li>To get better at translating designs</li>
-    <li>To help and motivate developers just getting started into tech as you can read through the code base...</li>
-    <li>To solidify my React JS ⚛️ skills </li>
-</ul>
-
-<p style={{ fontWeight: "bold" }}>Special thanks to TENOTEA, he has been really helpful</p>
-
-<h1>Designs</h1>
-
-{mappedDesigns} */}
+export default Home;
