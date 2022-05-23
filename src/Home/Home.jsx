@@ -78,7 +78,6 @@ const Home = () => {
     <React.Fragment>
       <div className='home'>
         <div className="home__repo home__container">
-import Pic from './assets/efficientWay.png';
           <p>You can check the repository here <a href="https://github.com/devyoma/landing-pages" target="_blank" rel="noreferrer">Github</a></p>
         </div>
         <div className="home__hero home__container">
