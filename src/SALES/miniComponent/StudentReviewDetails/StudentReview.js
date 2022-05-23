@@ -1,4 +1,3 @@
-import Image from '../../assets/heroImage.png'
 import Student1 from '../../assets/Student1.png'
 import Student2 from '../../assets/Student2.png'
 import Student3 from '../../assets/Student3.png'

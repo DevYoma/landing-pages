@@ -35,7 +35,7 @@ const SalesContact = () => {
             {
               contactObjects.map((contactItem) => (
                 <div className="salesContact__link" key={contactItem.id}>
-                  <img src={contactItem.icon} alt={contactItem.name} /> <span><a href={contactItem.link} target="_blank">{contactItem.name}</a> </span>
+                  <img src={contactItem.icon} alt={contactItem.name} /> <span><a href={contactItem.link} target="_blank" rel="noreferrer">{contactItem.name}</a> </span>
                 </div>
               ))
             }
