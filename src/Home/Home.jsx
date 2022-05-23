@@ -51,12 +51,12 @@ const Home = () => {
           img: mikey,
           link: '/mikey'
         },
-        {
-          id: 7, 
-          name: "Mathelda", 
-          img: mathelda,
-          link: '/mathelda'
-        },
+        // {
+        //   id: 7, 
+        //   name: "Mathelda", 
+        //   img: mathelda,
+        //   link: '/mathelda'
+        // },
         // {
         //   id: 8, 
         //   name: "Haggai", 
@@ -115,6 +115,7 @@ const Home = () => {
           {
             designs.map((design) => (
               <div key={design.id} className="home__designFlexItem">
+                <p id="home__toolTip">Click to visit {design.name} 🚀</p>
                 <img src={design.img} alt={design.name} onClick={() => handleDesignRouting(design)}/>
               </div>
             ))
